@@ -24,16 +24,28 @@ This project analyses Prism's marketing expenditure across three platforms: Goog
 
  ## Visual Analysis of Marketing Spend
 
-![Marketing Spend Analysis](https://github.com/shravya-nallamilli/-Prism-Marketing-Spend-Analysis/blob/8b41454747bc8ed5df31e28d6333a1a2eca3c541/Chart.Analysis.png)
+## Advertising Spend Analysis for 2020 and 2021
 
-### Explanation
-The chart above illustrates the monthly trends in marketing spending for Google Ads, Meta Ads, and RTBhouse Ads over a two-year period. Key observations include:
+The charts below illustrate the **monthly advertising spend trends** for **Google Ads** and **Meta Ads** during the years **2020** and **2021**.
 
-- **Google Ad Spend (Blue Line)**: Demonstrates significant fluctuations, with peaks observed around months 11 and 23. This aligns with increased campaign activity during critical periods.
-- **Meta Ad Spend (Orange Line)**: Shows a steady upward trend, indicating consistent investment, with slight peaks around months 12 and 23.
-- **RTBhouse Ad Spend (Green Line)**: Remains consistently low, suggesting minimal allocation of budget to this channel.
+![Ad Spend Analysis](https://github.com/shravya-nallamilli/-Prism-Marketing-Spend-Analysis/blob/15ce2100c8d2ba77e0af7e790abd993728f68f6c/2020%20and%202021%20Chart%20Analysis.png)
 
-From the analysis, Meta Ads demonstrated the strongest correlation with total revenue, as seen in the statistical analysis, while RTBhouse Ads showed negligible impact. These insights suggest reallocating budget from RTBhouse to Meta could enhance revenue generation.
+### Observations:
+
+1. **2020 Trends**:
+   - **Google Ads (Blue Bars)**: Spending shows significant peaks in the middle and towards the end of the year, likely aligned with major campaigns or seasonal promotions.
+   - **Meta Ads (Orange Bars)**: Spending remains relatively lower than Google Ads, with steady allocation throughout the year.
+
+2. **2021 Trends**:
+   - **Google Ads (Blue Bars)**: The spending pattern stabilises compared to 2020, with occasional spikes reflecting targeted campaigns.
+   - **Meta Ads (Orange Bars)**: Demonstrates a gradual increase in spending throughout the year, indicating a strategic focus on Meta Ads.
+
+### Key Insights:
+- Google Ads consistently account for the majority of the marketing budget across both years, highlighting its importance as the dominant platform.
+- Meta Ads display a growing share of the budget in 2021, suggesting a diversification of marketing strategies.
+
+### Conclusion:
+This analysis highlights a dynamic approach to marketing spend, with Google Ads being the main focus, while Meta Ads gain prominence in 2021. These insights provide a basis for optimising future budget allocation and strategy development.
 
 ### 4. **What-If Analysis**:
    - Simulated budget reallocations to project potential changes in revenue based on revised spending strategies.
