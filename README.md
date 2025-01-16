@@ -1,7 +1,5 @@
 # Prism Marketing Spend Analysis
 
-# Prism Marketing Spend Analysis
-
 ## Introduction
 This project analyses Prism's marketing expenditure across three platforms: Google, Meta, and RTB. The objective was to evaluate how these investments drive clicks and revenue, enabling the company to make data-driven decisions to optimise return on investment (ROI).
 
@@ -23,6 +21,19 @@ This project analyses Prism's marketing expenditure across three platforms: Goog
 ### 3. **Visualisation**:
    - Plotted graphs to visualise trends, correlations, and regression outputs.
    - Highlighted platforms with the highest and lowest impact on revenue.
+
+ ## Visual Analysis of Marketing Spend
+
+![Marketing Spend Analysis](./images/chart_analysis.png)
+
+### Explanation
+The chart above illustrates the monthly trends in marketing spending for Google Ads, Meta Ads, and RTBhouse Ads over a two-year period. Key observations include:
+
+- **Google Ad Spend (Blue Line)**: Demonstrates significant fluctuations, with peaks observed around months 11 and 23. This aligns with increased campaign activity during critical periods.
+- **Meta Ad Spend (Orange Line)**: Shows a steady upward trend, indicating consistent investment, with slight peaks around months 12 and 23.
+- **RTBhouse Ad Spend (Green Line)**: Remains consistently low, suggesting minimal allocation of budget to this channel.
+
+From the analysis, Meta Ads demonstrated the strongest correlation with total revenue, as seen in the statistical analysis, while RTBhouse Ads showed negligible impact. These insights suggest reallocating budget from RTBhouse to Meta could enhance revenue generation.
 
 ### 4. **What-If Analysis**:
    - Simulated budget reallocations to project potential changes in revenue based on revised spending strategies.
