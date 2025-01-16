@@ -1,59 +1,76 @@
-# **Prism Marketing Spend Analysis**
+# Prism Marketing Spend Analysis
 
-## **Project Overview**
-This project analyses marketing spend across three platforms—Google, Meta, and RTB—to measure ROI and assess the impact of these investments on performance metrics such as clicks, impressions, and total revenue. The goal was to identify the effectiveness of marketing channels and recommend budget reallocation strategies for maximising ROI.
+# Prism Marketing Spend Analysis
 
----
+## Introduction
+This project analyses Prism's marketing expenditure across three platforms: Google, Meta, and RTB. The objective was to evaluate how these investments drive clicks and revenue, enabling the company to make data-driven decisions to optimise return on investment (ROI).
 
-## **Steps and Methodology**
+## Objectives
+- Investigate the correlation between marketing spend and performance metrics (clicks, impressions, revenue).
+- Identify the platforms that generate the highest ROI for Prism.
+- Provide actionable recommendations for budget reallocation.
 
-### **1. Data Preparation**
-- Gathered marketing spend and performance metrics (clicks, impressions, and revenue) on a monthly basis.
-- Organised the data into a structured format in Excel, with one column for each variable.
+## Methodology
+### 1. **Data Preparation**:
+   - Aggregated data by month, consolidating marketing spend and key metrics (e.g., clicks, impressions, revenue).
+   - Cleaned and structured the data for analysis using Excel.
+   - Used pivot tables for grouping and summarising data by platform.
 
-### **2. Correlation Analysis**
-- Conducted correlation analysis to explore the relationship between ad spend and revenue.
-- **Key Findings:**
-  - **Meta Ad Spend:** Strong positive correlation with revenue (R = 0.731).
-  - **Google Ad Spend:** Moderate positive correlation with revenue (R = 0.403).
-  - **RTB Ad Spend:** Negligible or negative correlation with revenue (R = -0.005).
+### 2. **Analysis**:
+   - **Correlation Analysis**: Assessed the strength of relationships between marketing spend on each platform and total revenue.
+   - **Regression Analysis**: Utilised Excel’s Data Analysis Toolpak to model the relationship between marketing spend and revenue, producing detailed regression outputs for each platform.
 
-### **3. Regression Analysis**
-- Ran regression models using Excel’s Data Analysis Toolpak to quantify the impact of each ad channel on total revenue.
-- **Key Outputs:**
-  - **Meta Ad Spend:** High statistical significance and the strongest predictor of revenue.
-  - **Google Ad Spend:** Moderate statistical significance and positive impact on revenue.
-  - **RTB Ad Spend:** Minimal to no impact on revenue.
+### 3. **Visualisation**:
+   - Plotted graphs to visualise trends, correlations, and regression outputs.
+   - Highlighted platforms with the highest and lowest impact on revenue.
 
-### **4. What-If Analysis**
-- Simulated a scenario with a 20% increase in Meta ad spend and a corresponding reduction in Google ad spend.
-- Predicted a **4% increase in total annual revenue**, validating the importance of optimising the budget toward high-performing channels.
+### 4. **What-If Analysis**:
+   - Simulated budget reallocations to project potential changes in revenue based on revised spending strategies.
 
 ---
 
-## **Key Insights**
-1. **Meta ads** are the most effective in driving revenue and should receive increased investment.
-2. **Google ads** contribute moderately to revenue but can be adjusted to maximise efficiency.
-3. **RTB ads** show minimal impact on revenue and could be reduced or re-evaluated.
+## Results and Insights
+### **Correlation Analysis**:
+- **Google Ad Spend**:
+  - Moderate positive correlation (**0.403**) with revenue.
+  - Indicates that while Google ads contribute to revenue, the relationship is weaker compared to Meta.
+- **Meta Ad Spend**:
+  - Strong positive correlation (**0.731**) with revenue.
+  - Suggests that investments in Meta ads have a significant impact on revenue, making it the most effective platform for Prism.
+- **RTB Ad Spend**:
+  - Negligible or near-zero negative correlation (**-0.005**) with revenue.
+  - Indicates that RTB ads do not meaningfully contribute to revenue and may warrant re-evaluation.
+
+### **Regression Analysis**:
+- Regression outputs confirmed the trends observed in the correlation analysis:
+  - **Meta Ad Spend** demonstrated the strongest relationship with revenue, with a high coefficient and statistical significance.
+  - **Google Ad Spend** had a moderate but significant relationship with revenue.
+  - **RTB Ad Spend** showed a very weak and non-significant relationship, indicating low ROI for the current investment.
+
+### **What-If Analysis**:
+- A hypothetical reallocation of the 2021 budget revealed:
+  - **Increasing Meta’s budget by 20%** while reducing Google’s by the same amount could result in a **4% increase in annual revenue**.
+  - This suggests that redirecting funds from underperforming platforms (e.g., RTB) to high-performing ones (e.g., Meta) could enhance ROI.
+
+### Key Recommendations:
+1. **Increase Meta Ad Spend**:
+   - Allocate additional budget to Meta to maximise revenue gains, given its strong positive correlation and regression results.
+2. **Maintain Google Ad Spend**:
+   - Keep Google in the marketing strategy, as it provides consistent but moderate contributions to revenue.
+3. **Re-evaluate RTB Ad Spend**:
+   - Reduce or eliminate spending on RTB, as its negligible impact on revenue suggests low effectiveness.
 
 ---
 
-## **Tools Used**
-- **Excel:**
-  - Data Analysis Toolpak (Correlation and Regression Analysis)
-  - Pivot Tables
-  - What-If Analysis for budget reallocation
-- **Data Visualisation:** Created charts to present trends and highlight findings.
+## Conclusion
+The analysis highlights that Meta is Prism's most effective advertising platform, followed by Google. RTB ads contribute minimally to revenue and offer little return on investment. By reallocating budgets towards platforms with higher ROI (e.g., Meta), Prism can optimise its marketing strategy and improve overall revenue performance.
 
----
+## Lessons Learned
+- Practical application of Excel’s Data Analysis Toolpak for statistical modelling.
+- Advanced understanding of correlation and regression techniques in real-world scenarios.
+- Enhanced skills in deriving actionable business insights from data and presenting findings clearly.
 
-## **Deliverables**
-- **Excel Workbook:** Includes the dataset, correlation analysis, regression outputs, and what-if scenario modelling.
-- **Summary Report:** Highlights actionable recommendations for optimising marketing budget allocation.
-
----
-
-## **How to Use This Repository**
-1. Clone this repository: `git clone <repository_url>`
-2. Open the Excel file to explore the data and analysis.
-3. Review the insights and charts in the workbook for actionable insights.
+## How to Recreate
+1. Download the dataset from this repository.
+2. Use the `Data Analysis Toolpak` in Excel to run correlation and regression analyses.
+3. Review the included charts and insights to understand how marketing spend impacts revenue
