@@ -24,7 +24,7 @@ This project analyses Prism's marketing expenditure across three platforms: Goog
 
  ## Visual Analysis of Marketing Spend
 
-![Marketing Spend Analysis](./images/chart_analysis.png)
+![Marketing Spend Analysis](https://github.com/shravya-nallamilli/-Prism-Marketing-Spend-Analysis/blob/8b41454747bc8ed5df31e28d6333a1a2eca3c541/Chart.Analysis.png)
 
 ### Explanation
 The chart above illustrates the monthly trends in marketing spending for Google Ads, Meta Ads, and RTBhouse Ads over a two-year period. Key observations include:
